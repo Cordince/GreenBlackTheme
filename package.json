@@ -1,0 +1,26 @@
+{
+    "name": "green-black-theme",
+    "displayName": "Green Black Theme",
+    "description": "Green on Black theme for decades.",
+    "version": "0.0.1",
+    "publisher": "Cordince",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/skamansam/vscode-rbe-matrix-theme.git"
+    },
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Green Black Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/green-black-color-theme.json"
+            }
+        ]
+    }
+}
